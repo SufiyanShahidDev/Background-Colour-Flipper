@@ -1,30 +1,36 @@
-const bodyTag = document.getElementById('body-bg');
-const displayColor = document.getElementById('color-name');
-const btn = document.getElementById('change-btn');
+// const bodyTag = document.getElementById('body-bg');
 
-const colors = [
-    "AliceBlue", "AntiqueWhite", "Aquamarine", "BurlyWood",
-    "Chartreuse", "CornflowerBlue", "RoyalBlue", "DarkSlateBlue",
-    "DarkSeaGreen", "DodgerBlue", "DarkCyan", "ForestGreen",
-    "LightBlue", "PaleTurquoise", "LightSteelBlue", "LightSeaGreen",
-    "LimeGreen", "MediumSlateBlue", "CadetBlue", "SkyBlue"
-];
+// const displayColor = document.getElementById('color-name');
 
-function changeBackgroundColor() {
+// const btn = document.getElementById('change-btn');
 
-    const randomIndex = Math.floor(Math.random() * colors.length);
+// const colors = [
+//     "AliceBlue", "AntiqueWhite", "Aquamarine", "BurlyWood",
+//     "Chartreuse", "CornflowerBlue", "RoyalBlue", "DarkSlateBlue",
+//     "DarkSeaGreen", "DodgerBlue", "DarkCyan", "ForestGreen",
+//     "LightBlue", "PaleTurquoise", "LightSteelBlue", "LightSeaGreen",
+//     "LimeGreen", "MediumSlateBlue", "CadetBlue", "SkyBlue"
+// ];
 
-    const bgcolor = colors[randomIndex];
+// function changeBackgroundColor() {
 
-    bodyTag.style.backgroundColor = bgcolor;
+//     const randomIndex = Math.floor(Math.random() * colors.length);
 
-    displayColor.innerHTML = bgcolor;
+//     const bgcolor = colors[randomIndex];
 
-    const darkColors = ["DarkSlateBlue", "DarkCyan", "ForestGreen", "RoyalBlue", "DarkSeaGreen", "LightSeaGreen"];
+//     bodyTag.style.backgroundColor = bgcolor;
 
-    if (darkColors.includes(bgcolor)) {
-        displayColor.style.color = "white";
-    } else {
-        displayColor.style.color = "black";
-    }
-}
+//     displayColor.innerHTML = bgcolor;
+
+//     const darkColors = ["DarkSlateBlue", "DarkCyan", "ForestGreen", "RoyalBlue", "DarkSeaGreen", "LightSeaGreen"];
+
+//     if (darkColors.includes(bgcolor)) {
+
+//         displayColor.style.color = "white";
+
+//     } else {
+
+//         displayColor.style.color = "black";
+
+//     }
+// }
